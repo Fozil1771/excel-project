@@ -43,6 +43,7 @@ module.exports = {
 		compress: true,
 		port: 4000,
 		hot: isDev,
+		inline: true,
 	},
 	plugins: [
 		new CleanWebpackPlugin(),
